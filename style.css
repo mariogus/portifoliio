@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Gajraj+One&family=Tilt+Neon&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&family=Tilt+Neon&display=swap');
+
+.cabecalho-imagem{
+
+    height: 650px;
+    height: 65px;
+    border-radius: 50%;
+    margin-left: -23%;
+     
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+   
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 40px;
+}
+.cabecalho-itens{
+    font-family: 'Sarala', sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gajraj One', cursive;
+    font-size: 21px;
+    text-decoration: none;
+    text-shadow:0px 0px 8px aqua ;
+    
+
+}
+.cabecalho-itens:hover{
+    opacity: 0.7;
+   
+}
+
+.cabecalho-imagem{
+    margin-right: 20%;
+}
+
+body{
+    background: rgb(30,29,55);
+    background: linear-gradient(90deg, rgba(30,29,55,1) 0%, rgba(24,24,43,1) 24%, rgba(19,53,60,1) 53%); 
+}
+
+#text-sobremim{
+    margin-left: 7%;
+    margin-top: 5%;
+    float: left;
+    font-size: 40px;
+    font-family: 'Tilt Neon', cursive;
+    color:  #ffffff;
+    border-right: 4px solid;
+    width: 36ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(35);
+    text-shadow:0px 0px 8px aqua ;
+    
+}
+@keyframes typing {
+    from{
+        width: 0;
+
+    }
+
+    
+}
+
+@keyframes blinking {
+    50%{
+        border-color: transparent;
+    }
+    
+}
+
+.jorge{
+   
+    margin-top: 20%;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.titulo-sobremim{
+    border-top: 0.4px solid aqua ;
+    padding-top: 10px;
+    font-family: 'Righteous', cursive; 
+    font-weight: 400;
+    font-size: 40px;
+    color: aqua ;
+    margin-bottom: 16px;
+   
+}
+
+.texto-sobremim{
+    font-weight: 300;
+    font-size: 27px;
+    color:  #FFF2E7 ;
+    padding: 10px;
+    
+
+}
+
+.premen{
+    color: rgb(3, 3, 3);
+    text-shadow:0px 0px 8px aqua ;
+}
+
